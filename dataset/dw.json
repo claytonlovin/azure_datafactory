@@ -1,0 +1,30 @@
+{
+	"name": "dw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "serverdw_eng",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Movies",
+				"type": "varchar"
+			},
+			{
+				"name": "Title",
+				"type": "varchar"
+			},
+			{
+				"name": "genres",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tblMovies"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
