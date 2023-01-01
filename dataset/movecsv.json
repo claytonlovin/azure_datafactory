@@ -1,0 +1,24 @@
+{
+	"name": "movecsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerMove",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "form_engdados"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

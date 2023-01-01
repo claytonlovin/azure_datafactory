@@ -1,0 +1,9 @@
+{
+	"name": "cursoEngenhariaudemy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "30199ebb-691e-4872-99eb-c2e9c6558ea4",
+		"tenantId": "d6fd1cfe-3a03-469b-a60e-d8e4818b07da"
+	}
+}
